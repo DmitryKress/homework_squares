@@ -1,0 +1,36 @@
+*{ 
+    color: bisque;
+    box-sizing:border-box;
+    font-size: 50px;
+ }
+    .conteiner{
+    flex-direction:row; 
+    display: flex;
+    text-align: center;
+}
+    .item1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 920px;
+  }
+    .item2{
+    display:flex;
+    flex-wrap: wrap;  
+    width: 100%;
+    height: 920px;
+ }
+    .items{
+    padding-top:12%; 
+    background-color: #304667;
+    width: 50%;
+    height: 50%;
+    border: 2px solid white;
+ }
+    .items1{
+    padding-top:6.5%;
+    background-color: #304667;
+    width: 33.3%;
+    height: 33.3%;
+    border: 2px solid white;
+}
